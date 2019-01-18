@@ -1,0 +1,14 @@
+extends ../../_component/layout/template
+
+block cool-config
+    -
+        var myTitle = 'Learn to code JavaScript comments for beginners';
+        var myDescription = 'JavaScript comments can be used to explain JavaScript code, and to make it more readable';
+        var landingPage = 'JavaScript';
+        var activeLink = '/javascript/comments';
+
+block awesome-content
+    h1=myTitle
+    p=myDescription
+    h2 Example
+    p #[span(style="color:green") // This is a comment.]
