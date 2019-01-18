@@ -6,16 +6,10 @@ html
     link(rel="stylesheet", href="style.css")
   body
     header
-      a(href="/") Home
+      a.current(href="/") Home
       a(href="/about html") HTML
       a(href="/about css") CSS
       a(href="/about JavaScript") JavaScript
-
-    nav
-      h3 HTML and CSS
-      a(href= "/about html") Learn HTML
-      a(href= "/about css") Learn CSS
-      a(href= "/about JavaScript") Learn JavaScript
 
     article
       h1 This is a replica of w3schools.com
@@ -26,5 +20,11 @@ html
       p The language for styling web pages. #[a(href="/about css") Try this one !!!]
       h2 JavaScript
       p The language for programming web pages.#[a(href="/about JavaScript") Check it out !!!]
+
+    nav
+      h3 HTML and CSS
+      a(href= "/about html") Learn HTML
+      a(href= "/about css") Learn CSS
+      a(href= "/about JavaScript") Learn JavaScript
 
     footer &copy; 2017 Also my name is awesome, not only your name! :))
